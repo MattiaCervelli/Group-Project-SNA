@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "53bf23cb5e18ad1852f052dcb44c837bc25be2f45c5d63b7b40996c930f6eafd"
+            "sha256": "d757e7b16420c0dbd79f057ec3a66781f40c02922eb70d7ab6611622eae2fa94"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.10"
+            "python_version": "3.10.10"
         },
         "sources": [
             {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "networkx": {
+            "hashes": [
+                "sha256:9f1bb5cf3409bf324e0a722c20bdb4c20ee39bf1c30ce8ae499c8502b0b5e0c6",
+                "sha256:f18c69adc97877c42332c170849c96cefa91881c99a7cb3e95b7c659ebdc1ec2"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==3.2.1"
+        },
         "numpy": {
             "hashes": [
                 "sha256:06934e1a22c54636a059215d6da99e23286424f316fddd979f5071093b648668",
@@ -53,6 +61,13 @@
             ],
             "markers": "python_version < '3.13' and python_version >= '3.9'",
             "version": "==1.26.1"
+        },
+        "python-louvain": {
+            "hashes": [
+                "sha256:b7ba2df5002fd28d3ee789a49532baad11fe648e4f2117cf0798e7520a1da56b"
+            ],
+            "index": "pypi",
+            "version": "==0.16"
         },
         "scipy": {
             "hashes": [

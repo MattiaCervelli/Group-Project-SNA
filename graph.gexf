@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-11-10">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="0" label="AGENT AMDURSKY">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="205.01816" y="259.5299" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="1" label="AMDURSKY">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.1771" />
+        <viz:position x="160.18234" y="175.16965" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="2" label="ASHLEY">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="33.7842" y="173.81876" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="3" label="AUCTIONEER">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-187.51755" y="89.455345" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="4" label="BARTENDER">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="105.37144" y="-264.9564" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="5" label="BELLMAN">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="7.084475" y="165.37457" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="6" label="BRENDA">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.0592275" />
+        <viz:position x="-86.54098" y="0.9877331" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="7" label="CAROL">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="198.97546" y="-22.652918" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="8" label="CO-PILOT">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="120.022865" y="-101.097534" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="9" label="COMPANY">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="113.47157" y="404.1459" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="10" label="DARCY">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-181.94931" y="-226.38852" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="11" label="DEBBIE ZANE">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0293684" />
+        <viz:position x="-122.0165" y="33.829185" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="12" label="DETECTIVE #1">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-197.05281" y="-81.44237" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="13" label="DETECTIVE #2">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-199.678" y="-42.76529" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="14" label="DIRECTOR MARSH">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="278.25146" y="125.39119" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="15" label="DOCTOR ASHLAND">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.002759" />
+        <viz:position x="-144.20961" y="-42.66232" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="16" label="DOCTOR HOLLIS">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-231.20348" y="-91.329346" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="17" label="FBI AGENT">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="260.00412" y="39.57808" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="18" label="FBI DIRECTOR MARSH">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.132434" />
+        <viz:position x="164.75058" y="109.291824" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="19" label="FI">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-12.191872" y="78.881905" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="20" label="FOX">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.1771" />
+        <viz:position x="206.19807" y="167.7796" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="21" label="FRAN">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.2863274" />
+        <viz:position x="36.350643" y="-111.394615" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="22" label="FRANK">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-1.9741263" y="-1.8952475" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="23" label="FRANK S">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-150.05501" y="-172.04921" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="24" label="FRANK SR">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="6.039056" />
+        <viz:position x="-57.827663" y="-160.13329" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="25" label="GIRL">
+        <viz:color r="255" g="220" b="101" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="292.49258" y="-94.273766" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="26" label="GRANGER">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-203.37265" y="51.645046" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="27" label="II">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.1397915" />
+        <viz:position x="-15.01922" y="144.49025" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="28" label="III">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.034672" />
+        <viz:position x="294.5922" y="55.44916" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="29" label="INSIDE THE CELL">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-47.919624" y="212.95773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="30" label="JACK WRIGHT">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-115.35738" y="-158.41214" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="31" label="JOANNA">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="174.31802" y="206.17377" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="32" label="JOE">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="98.61033" y="196.74895" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="33" label="JOE SHA">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0687003" />
+        <viz:position x="158.22089" y="242.21126" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="34" label="JOE SHAYE">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="8.612569" />
+        <viz:position x="94.130356" y="121.52122" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="35" label="JOE SHAYS">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-82.14782" y="171.35542" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="36" label="JOE SHP_YE">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.001839" />
+        <viz:position x="-46.986145" y="119.30029" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="37" label="JUDGE">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-214.537" y="13.690763" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="38" label="JUDY">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-158.47148" y="-81.20496" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="39" label="KID">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="22.67152" y="226.19511" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="40" label="LANDLORD">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="26.343206" y="284.7495" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="41" label="LOAN OFFICER">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-47.797047" y="-262.3089" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="42" label="LUCY">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-106.66083" y="82.51224" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="43" label="MACHINE">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-159.1907" y="127.75843" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="44" label="MAN #1">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="84.02958" y="-225.87048" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="45" label="MAN #2">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="61.885036" y="-294.8599" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="46" label="MANAGER">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-156.71706" y="-4.4049983" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="47" label="MARCEL">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-163.49474" y="48.590527" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="48" label="MARCI">
+        <viz:color r="169" g="208" b="253" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="16.733809" y="-169.0937" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="49" label="MONICA">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-150.45396" y="84.62327" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="50" label="MONIQUE">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-56.66808" y="63.664585" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="51" label="MOTEL OWNER">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="242.93532" y="237.31276" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="52" label="MULLIGAN">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-71.8946" y="88.03117" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="53" label="NEW ACCOUNTS MANAGER">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-77.23855" y="-207.99341" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="54" label="NEWSCASTER">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="41.958004" y="-256.43924" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="55" label="OLIVER">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-17.697132" y="-65.92231" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="56" label="PAN AM OPERATOR">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="57.279594" y="247.57211" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="57" label="PAPPA">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="133.81479" y="-21.970192" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="58" label="PAULA">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.2769465" />
+        <viz:position x="-80.00402" y="-68.85871" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="59" label="PILOT">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.002759" />
+        <viz:position x="80.51954" y="-71.1183" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="60" label="POLAROID SALESMAN">
+        <viz:color r="169" g="208" b="253" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="11.244489" y="-220.47195" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="61" label="PRINCIPAL EVANS">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-196.93272" y="-135.63107" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="62" label="PRINT SHOP OWNER">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-76.22444" y="-111.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="63" label="PURCHASING SUPERVISOR">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.441447" />
+        <viz:position x="70.18572" y="310.58398" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="64" label="ROBERT">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.1407113" />
+        <viz:position x="169.98996" y="-42.272003" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="65" label="ROSS">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="64.28272" y="181.13376" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="66" label="SALESMAN">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0417533" />
+        <viz:position x="128.14302" y="28.332903" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="67" label="SCHOOL ADMINISTRATOR">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="146.68576" y="-125.30449" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="68" label="SECRETARY">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-60.531036" y="36.776577" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="69" label="SECURITY GUARD">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="185.46606" y="53.01302" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="70" label="SHAYE">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.005886" />
+        <viz:position x="150.34236" y="69.253265" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="71" label="SMASH CUT">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-16.986376" y="234.6974" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="72" label="SPECIAL AGENT WILKES">
+        <viz:color r="95" g="202" b="190" a="1.0" />
+        <viz:size value="5.0156345" />
+        <viz:position x="225.7395" y="103.71295" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="73" label="STUDENT">
+        <viz:color r="255" g="220" b="101" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="273.68158" y="-56.909637" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="74" label="TEACHER">
+        <viz:color r="255" g="220" b="101" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="250.18517" y="-100.37737" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="75" label="TICKET AGENT">
+        <viz:color r="169" g="208" b="253" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="53.268818" y="-156.75807" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="76" label="TICKET CLERK">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-160.63213" y="-129.45045" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="77" label="TWA PILOT">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-89.17309" y="47.621357" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="78" label="WAITER">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-118.90405" y="-202.50154" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="79" label="WOMAN">
+        <viz:color r="255" g="170" b="51" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-35.36114" y="-210.37468" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="80" label="WOMAN #2">
+        <viz:color r="255" g="102" b="0" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-49.802334" y="161.20177" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="81" label="YOUNG DOCTOR">
+        <viz:color r="214" g="67" b="67" a="1.0" />
+        <viz:size value="5.0" />
+        <viz:position x="-129.13606" y="-96.18775" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="0" target="20" id="0" label="37180" weight="1" />
+      <edge source="0" target="1" id="1" label="37176" weight="1" />
+      <edge source="0" target="34" id="2" label="37178" weight="1" />
+      <edge source="1" target="70" id="3" label="37265" weight="1" />
+      <edge source="1" target="20" id="4" label="37210" weight="1" />
+      <edge source="1" target="22" id="5" label="37205" weight="1" />
+      <edge source="1" target="33" id="6" label="37188" weight="1" />
+      <edge source="1" target="34" id="7" label="37186" weight="1" />
+      <edge source="1" target="51" id="8" label="37183" weight="1" />
+      <edge source="1" target="66" id="9" label="37208" weight="1" />
+      <edge source="2" target="22" id="10" label="37130" weight="1" />
+      <edge source="3" target="22" id="11" label="37165" weight="1" />
+      <edge source="4" target="22" id="12" label="37118" weight="1" />
+      <edge source="4" target="44" id="13" label="37119" weight="1" />
+      <edge source="4" target="45" id="14" label="37120" weight="1" />
+      <edge source="4" target="24" id="15" label="37114" weight="1" />
+      <edge source="4" target="54" id="16" label="37110" weight="1" />
+      <edge source="5" target="22" id="17" label="37131" weight="1" />
+      <edge source="6" target="15" id="18" label="37221" weight="1" />
+      <edge source="6" target="22" id="19" label="37222" weight="1" />
+      <edge source="6" target="27" id="20" label="37256" weight="1" />
+      <edge source="6" target="34" id="21" label="37258" weight="1" />
+      <edge source="6" target="81" id="22" label="37216" weight="1" />
+      <edge source="7" target="22" id="23" label="37231" weight="1" />
+      <edge source="7" target="64" id="24" label="37230" weight="1" />
+      <edge source="8" target="22" id="25" label="37248" weight="1" />
+      <edge source="8" target="59" id="26" label="37247" weight="1" />
+      <edge source="9" target="63" id="27" label="37135" weight="1" />
+      <edge source="10" target="24" id="28" label="37081" weight="1" />
+      <edge source="11" target="24" id="29" label="37083" weight="1" />
+      <edge source="11" target="22" id="30" label="37291" weight="1" />
+      <edge source="11" target="34" id="31" label="37289" weight="1" />
+      <edge source="11" target="36" id="32" label="37292" weight="1" />
+      <edge source="12" target="13" id="33" label="37138" weight="1" />
+      <edge source="12" target="22" id="34" label="37137" weight="1" />
+      <edge source="12" target="24" id="35" label="37139" weight="1" />
+      <edge source="13" target="24" id="36" label="37142" weight="1" />
+      <edge source="13" target="22" id="37" label="37140" weight="1" />
+      <edge source="14" target="34" id="38" label="37244" weight="1" />
+      <edge source="14" target="72" id="39" label="37242" weight="1" />
+      <edge source="15" target="16" id="40" label="37225" weight="1" />
+      <edge source="15" target="22" id="41" label="37220" weight="1" />
+      <edge source="16" target="22" id="42" label="37224" weight="1" />
+      <edge source="17" target="28" id="43" label="37172" weight="1" />
+      <edge source="17" target="72" id="44" label="37173" weight="1" />
+      <edge source="17" target="34" id="45" label="37169" weight="1" />
+      <edge source="18" target="72" id="46" label="37281" weight="1" />
+      <edge source="18" target="22" id="47" label="37294" weight="1" />
+      <edge source="18" target="34" id="48" label="37279" weight="1" />
+      <edge source="19" target="22" id="49" label="37193" weight="1" />
+      <edge source="19" target="58" id="50" label="37284" weight="1" />
+      <edge source="19" target="34" id="51" label="37191" weight="1" />
+      <edge source="20" target="34" id="52" label="37209" weight="1" />
+      <edge source="20" target="70" id="53" label="37264" weight="1" />
+      <edge source="20" target="22" id="54" label="37203" weight="1" />
+      <edge source="20" target="33" id="55" label="37189" weight="1" />
+      <edge source="20" target="51" id="56" label="37184" weight="1" />
+      <edge source="20" target="66" id="57" label="37206" weight="1" />
+      <edge source="21" target="62" id="58" label="37239" weight="1" />
+      <edge source="21" target="22" id="59" label="37251" weight="1" />
+      <edge source="21" target="24" id="60" label="37087" weight="1" />
+      <edge source="21" target="34" id="61" label="37253" weight="1" />
+      <edge source="21" target="41" id="62" label="37086" weight="1" />
+      <edge source="21" target="70" id="63" label="37254" weight="1" />
+      <edge source="22" target="23" id="64" label="37167" weight="1" />
+      <edge source="22" target="24" id="65" label="37089" weight="1" />
+      <edge source="22" target="25" id="66" label="37092" weight="1" />
+      <edge source="22" target="27" id="67" label="37257" weight="1" />
+      <edge source="22" target="29" id="68" label="37073" weight="1" />
+      <edge source="22" target="30" id="69" label="37104" weight="1" />
+      <edge source="22" target="32" id="70" label="37198" weight="1" />
+      <edge source="22" target="34" id="71" label="37128" weight="1" />
+      <edge source="22" target="35" id="72" label="37298" weight="1" />
+      <edge source="22" target="36" id="73" label="37290" weight="1" />
+      <edge source="22" target="37" id="74" label="37235" weight="1" />
+      <edge source="22" target="38" id="75" label="37266" weight="1" />
+      <edge source="22" target="44" id="76" label="37121" weight="1" />
+      <edge source="22" target="45" id="77" label="37122" weight="1" />
+      <edge source="22" target="46" id="78" label="37144" weight="1" />
+      <edge source="22" target="47" id="79" label="37273" weight="1" />
+      <edge source="22" target="49" id="80" label="37267" weight="1" />
+      <edge source="22" target="52" id="81" label="37150" weight="1" />
+      <edge source="22" target="58" id="82" label="37103" weight="1" />
+      <edge source="22" target="60" id="83" label="37151" weight="1" />
+      <edge source="22" target="63" id="84" label="37134" weight="1" />
+      <edge source="22" target="64" id="85" label="37232" weight="1" />
+      <edge source="22" target="66" id="86" label="37202" weight="1" />
+      <edge source="22" target="67" id="87" label="37100" weight="1" />
+      <edge source="22" target="69" id="88" label="37296" weight="1" />
+      <edge source="22" target="70" id="89" label="37250" weight="1" />
+      <edge source="22" target="71" id="90" label="37074" weight="1" />
+      <edge source="22" target="73" id="91" label="37091" weight="1" />
+      <edge source="22" target="74" id="92" label="37093" weight="1" />
+      <edge source="22" target="75" id="93" label="37152" weight="1" />
+      <edge source="22" target="76" id="94" label="37124" weight="1" />
+      <edge source="22" target="77" id="95" label="37145" weight="1" />
+      <edge source="22" target="78" id="96" label="37195" weight="1" />
+      <edge source="22" target="79" id="97" label="37106" weight="1" />
+      <edge source="22" target="26" id="98" label="37218" weight="1" />
+      <edge source="22" target="31" id="99" label="37102" weight="1" />
+      <edge source="22" target="33" id="100" label="37126" weight="1" />
+      <edge source="22" target="42" id="101" label="37160" weight="1" />
+      <edge source="22" target="43" id="102" label="37163" weight="1" />
+      <edge source="22" target="48" id="103" label="37157" weight="1" />
+      <edge source="22" target="50" id="104" label="37276" weight="1" />
+      <edge source="22" target="53" id="105" label="37199" weight="1" />
+      <edge source="22" target="54" id="106" label="37111" weight="1" />
+      <edge source="22" target="56" id="107" label="37132" weight="1" />
+      <edge source="22" target="57" id="108" label="37278" weight="1" />
+      <edge source="22" target="59" id="109" label="37246" weight="1" />
+      <edge source="22" target="62" id="110" label="37241" weight="1" />
+      <edge source="22" target="65" id="111" label="37136" weight="1" />
+      <edge source="22" target="80" id="112" label="37214" weight="1" />
+      <edge source="22" target="81" id="113" label="37215" weight="1" />
+      <edge source="23" target="24" id="114" label="37168" weight="1" />
+      <edge source="24" target="44" id="115" label="37116" weight="1" />
+      <edge source="24" target="45" id="116" label="37117" weight="1" />
+      <edge source="24" target="61" id="117" label="37101" weight="1" />
+      <edge source="24" target="30" id="118" label="37076" weight="1" />
+      <edge source="24" target="41" id="119" label="37085" weight="1" />
+      <edge source="24" target="54" id="120" label="37109" weight="1" />
+      <edge source="24" target="58" id="121" label="37077" weight="1" />
+      <edge source="24" target="66" id="122" label="37088" weight="1" />
+      <edge source="24" target="79" id="123" label="37108" weight="1" />
+      <edge source="25" target="74" id="124" label="37096" weight="1" />
+      <edge source="25" target="73" id="125" label="37094" weight="1" />
+      <edge source="27" target="34" id="126" label="37270" weight="1" />
+      <edge source="27" target="39" id="127" label="37271" weight="1" />
+      <edge source="28" target="64" id="128" label="37234" weight="1" />
+      <edge source="28" target="72" id="129" label="37174" weight="1" />
+      <edge source="28" target="34" id="130" label="37170" weight="1" />
+      <edge source="29" target="71" id="131" label="37075" weight="1" />
+      <edge source="29" target="34" id="132" label="37071" weight="1" />
+      <edge source="30" target="58" id="133" label="37105" weight="1" />
+      <edge source="32" target="34" id="134" label="37197" weight="1" />
+      <edge source="33" target="34" id="135" label="37185" weight="1" />
+      <edge source="33" target="51" id="136" label="37182" weight="1" />
+      <edge source="34" target="35" id="137" label="37300" weight="1" />
+      <edge source="34" target="36" id="138" label="37288" weight="1" />
+      <edge source="34" target="39" id="139" label="37269" weight="1" />
+      <edge source="34" target="40" id="140" label="37227" weight="1" />
+      <edge source="34" target="55" id="141" label="37282" weight="1" />
+      <edge source="34" target="68" id="142" label="37304" weight="1" />
+      <edge source="34" target="70" id="143" label="37252" weight="1" />
+      <edge source="34" target="71" id="144" label="37072" weight="1" />
+      <edge source="34" target="51" id="145" label="37181" weight="1" />
+      <edge source="34" target="58" id="146" label="37213" weight="1" />
+      <edge source="34" target="66" id="147" label="37207" weight="1" />
+      <edge source="34" target="72" id="148" label="37194" weight="1" />
+      <edge source="35" target="36" id="149" label="37302" weight="1" />
+      <edge source="42" target="43" id="150" label="37162" weight="1" />
+      <edge source="44" target="45" id="151" label="37123" weight="1" />
+      <edge source="44" target="54" id="152" label="37112" weight="1" />
+      <edge source="45" target="54" id="153" label="37113" weight="1" />
+      <edge source="47" target="50" id="154" label="37275" weight="1" />
+      <edge source="48" target="60" id="155" label="37155" weight="1" />
+      <edge source="48" target="75" id="156" label="37156" weight="1" />
+      <edge source="56" target="63" id="157" label="37133" weight="1" />
+      <edge source="58" target="61" id="158" label="37097" weight="1" />
+      <edge source="59" target="77" id="159" label="37147" weight="1" />
+      <edge source="60" target="75" id="160" label="37154" weight="1" />
+      <edge source="73" target="74" id="161" label="37095" weight="1" />
+    </edges>
+  </graph>
+</gexf>
