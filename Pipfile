@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 scipy = "*"
 python-louvain = "*"
+seaborn = "*"
+tabulate = "*"
 
 [dev-packages]
 
